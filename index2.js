@@ -820,11 +820,118 @@ let obj={
 }
 console.log(obj.y());
 
-*/
-function persona(name) {
+
+let persona=function(name) {
   this.name = name;
   this.greeting = function() {
     alert('Hi! I\'m ' + this.name + '.');
   };
 }
 persona()
+
+///////////////////////////////////01-03-2022
+
+//1)array
+let amigos=['fer', 'señora', 'tio', 'abuelo'];
+alert(amigos)
+
+//2)
+//let bool=[false,true,true]
+//alert(bool)
+
+//3)
+let pelis=['matrix', 'forest gum', 'jurasic park', 'titanic']
+alert(pelis[2])
+
+var automovil = {
+  marca: 'Mazda',
+  modelo: '3 sport',
+  patente: 'LJKH63',
+  color: 'azul',
+  kilometraje: 15000,
+  usado: false,
+  encender: function(){
+  alert('automóvil encendido.');
+  }
+  };
+  automovil.encender()
+
+
+  let amigos = ["Erick", "Cristian", "Max", "Claudia"];
+  console.log(amigos[2]);
+
+
+
+  var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+  // Se muestra el nombre de cada mes
+  alert(meses[0]);
+  alert(meses[1]);
+  alert(meses[2]);
+  alert(meses[3]);
+  alert(meses[4]);
+  alert(meses[5]);
+  alert(meses[6]);
+  alert(meses[7]);
+  alert(meses[8]);
+  alert(meses[9]);
+  alert(meses[10]);
+  alert(meses[11]);
+
+const cars = ["Saab", "Volvo", "BMW"];
+let car = cars[1];
+alert(car)
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let length = fruits.length;
+alert(length)
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits[0];
+////////////hermanas
+let amigos = ["Erick", "Cristian", "Max", "Claudia"];
+console.log(amigos[2]);
+/////////////hernanas
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits[fruits.length-4];
+alert(fruit)
+
+
+const fruits = ["Banana", "Orange", "Apple"];
+fruits.push("Lemon");  // Adds a new element (Lemon) to fruits
+console.log(fruits)
+
+
+let array=[1,2,3,4,5];
+document.getElementById('demo').innerHTML=array;
+
+const lista= [1,2,3,4,5];
+document.getElementById('demo').innerHTML=lista;
+alert(lista)
+  
+  
+
+
+
+let i = 0;
+while (i < 3) { // muestra 0, luego 1, luego 2
+  alert( i );
+  i++;
+}
+
+
+
+//20)
+let x=0
+let whl=function () {
+  while (x<5) {
+   alert (x++)  
+  }
+  }
+whl()
+
+*/
+
+for (let i = 0; i < 3; i++) { // muestra 0, luego 1, luego 2
+  alert(i);
+}
