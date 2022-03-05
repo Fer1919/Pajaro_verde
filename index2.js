@@ -930,8 +930,11 @@ let whl=function () {
   }
 whl()
 
-*/
+
 
 for (let i = 0; i < 3; i++) { // muestra 0, luego 1, luego 2
   alert(i);
 }
+*/
+
+
